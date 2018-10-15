@@ -24,7 +24,10 @@ public abstract class Employee {
     }
 
     public void increaseSalary(double amount) {
-        salary += amount;
+        if (amount > 0) {
+            salary += amount;
+        }
+
     }
 
     public double payBonus() {
