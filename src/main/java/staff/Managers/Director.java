@@ -13,4 +13,9 @@ public class Director extends Employee {
     public double getBudget() {
         return budget;
     }
+
+    @Override
+    public double payBonus() {
+        return getSalary() * 0.02 ;
+    }
 }

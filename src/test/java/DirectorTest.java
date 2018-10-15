@@ -14,7 +14,7 @@ public class DirectorTest {
     }
 
     @Test
-    public void hasDeptName() {
+    public void hasBuget() {
         assertEquals(2000000.00, director.getBudget(), 0.01);
     }
 
@@ -41,6 +41,6 @@ public class DirectorTest {
 
     @Test
     public void canGetBonus() {
-        assertEquals(400.00, director.payBonus(), 0.01);
+        assertEquals(800.00, director.payBonus(), 0.01);
     }
 }
