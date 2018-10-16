@@ -10,7 +10,7 @@ public class DirectorTest {
 
     @Before
     public void before() {
-        director = new Director("Jack", "22BB4FF4", 40000.00, 2000000.00);
+        director = new Director("Jack", "22BB4FF4", 40000.00, "Finance", 2000000.00);
     }
 
     @Test
